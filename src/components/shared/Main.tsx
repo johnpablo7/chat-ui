@@ -25,15 +25,20 @@ export const Main = () => {
             {/* Image */}
             <div className="relative flex items-center justify-center">
               <img src="img/contact-1.png" alt="contact" />
-              <RiCheckboxBlankCircleFill className="absolute text-[#41D37E] -right-1 bottom-0" />
+              <RiCheckboxBlankCircleFill className="absolute text-[#41D37E] -right-1 bottom-0 ring-2 ring-white rounded-full" />
             </div>
             {/* Name and Hour */}
             <div className="flex w-full justify-between">
               <div>
-                <div className="text-[#E9E9E9]">name</div>
-                <div>Typing...</div>
+                <h3 className="text-[#E9E9E9]">Killan James</h3>
+                <p className="text-[#258C60]">Typing...</p>
               </div>
-              <div className="text-sm text-[#A9ABAD]">hora</div>
+              <div>
+                <h3 className="text-[#A9ABAD]">4:30 PM</h3>
+                <span className="bg-[#D34141] text-white rounded-full py-1 px-2 text-xs float-right">
+                  2
+                </span>
+              </div>
             </div>
           </div>
         </div>
