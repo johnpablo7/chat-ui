@@ -22,6 +22,10 @@ export const Main = () => {
         </div>
         {/* Contacts */}
         <div className="p-8">
+          <div className="flex items-center gap-2 pb-4">
+            <img src="/img/message.png" alt="message" />
+            <h5 className="text-sm text-[#B4B5B7]">All Message</h5>
+          </div>
           {/* Contact */}
           {contacts.map((contact) => (
             <NavLink to="/" key={contact.id} className="flex w-full gap-4 mb-8">
